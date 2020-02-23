@@ -1,0 +1,7 @@
+C:\Users\r2d2\source\repos\aba\aba\obj\Debug\aba.csprojAssemblyReference.cache
+C:\Users\r2d2\source\repos\aba\aba\obj\Debug\aba.csproj.CoreCompileInputs.cache
+C:\Users\r2d2\source\repos\aba\aba\bin\Debug\aba.exe.config
+C:\Users\r2d2\source\repos\aba\aba\bin\Debug\aba.exe
+C:\Users\r2d2\source\repos\aba\aba\bin\Debug\aba.pdb
+C:\Users\r2d2\source\repos\aba\aba\obj\Debug\aba.exe
+C:\Users\r2d2\source\repos\aba\aba\obj\Debug\aba.pdb
