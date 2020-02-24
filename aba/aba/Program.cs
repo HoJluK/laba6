@@ -56,31 +56,31 @@ namespace aba
 
         static void two()
         {
-            string path = @"D:\Lab2";
             string path1 = @"D:\Lab2\\lab.dat";
             string path2 = @"D:\Lab2\\lab2.dat";
             string one = String.Empty;
             sw = new StreamWriter(path1);
             for (int i = 1; i <= 100; i++)
             {
-                sw.WriteLine(one += i + " - 2^" + i + "\n");
+               one += i + " - 2^" + i + "\n"+"  ";
             }
+            sw.WriteLine(one);
             sw.Close();
             List<String> mass = new List<string>();
             sr = new StreamReader(path1);
-            //while (true)
-            //{
-            //    string line = sr.ReadLine();
-            //    if (line != null)
-            //    {
-            //        mass.Add(line);
-            //    }
-            //    else
-            //    {
-            //        break;
-            //    }
-            //    }
-                int numbers = 0;
+            while (true)
+            {
+                string line = sr.ReadLine();
+                if (line != null)
+                {
+                    mass.Add(line);
+                }
+                else
+                {
+                    break;
+                }
+            }
+            int numbers = 1;
                 sw = new StreamWriter(path2);    
                 foreach (string item in mass)                 
                 {
@@ -91,8 +91,7 @@ namespace aba
                     }
                 numbers++;
                 }
-
-
+            Console.WriteLine("All is Ready");
             sw.Close();
             Console.ReadKey();
         }
